@@ -116,6 +116,12 @@ img {
     font-size: var(--text-lg);
 }
 
+.text-caps {
+    font-size: var(--text-sm);
+    text-transform: uppercase;
+    color: var(--primary);
+}
+
 .container {
     max-width: 1200px;
     padding: 96px 0;
@@ -294,9 +300,6 @@ footer {
     gap: 32px;
 }
 
-footer img {
-    margin: 0;
-}
 
 .footer-block {
     display: flex;
